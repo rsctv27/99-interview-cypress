@@ -7,18 +7,13 @@
 
 describe("Test Suite 2", () => {
   beforeEach(() => {
-    //Optional
+    cy.visit('/')
+    cy.url().should('eq', 'https://www.99.co/')
   });
 
-  it("Test Case 1", () => {
-    //Write your automation script here for Test Case 1
+  it("Should be redirected to popular projects landing page after click link", () => {
+     cy.get('a[href="/singapore/new-launches"]').click()
+     cy.url().should('eq', 'https://www.99.co/singapore/new-launches')
   });
-
-  it("Test Case 2", () => {
-    //Optional
-  });
-
-  it("Test Case 3", () => {
-    //Optional
-  });
+  
 });

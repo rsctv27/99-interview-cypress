@@ -2,7 +2,7 @@
 
 This repo is created to provide the tech challenge for any QA candidates.
 
-## How to set up
+## How to set up on macOS
 
 If you have issues, please go to [Cypress' Guide to Installing Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress) and follow the instructions provided in the documentation. The steps will differ depending on your OS. However, the steps below will generally work for Windows/Mac/Linux.
 
@@ -38,8 +38,8 @@ All of the following information is documented in [Cypress/Core Concepts - The T
 
 - Please code out your answers in
   ```
-  cypress/e2e/WebSuite1.cy.js
-  cypress/e2e/WebSuite2.cy.js
-  cypress/e2e/WebSuite3.cy.js
+  cypress/e2e/TestSuite1.cy.js
+  cypress/e2e/TestSuite2.cy.js
+  cypress/e2e/TestSuite3.cy.js
   ```
 - Do not use any 3rd party libraries or plugins for the tech challenge. The Cypress built-in library is sufficient to complete the task.
